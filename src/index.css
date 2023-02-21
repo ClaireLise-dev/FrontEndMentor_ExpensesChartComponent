@@ -6,18 +6,17 @@
 
 html {
   min-height: 100vh;
-  
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:hsl(27, 66%, 92%);
+  background-color: hsl(27, 66%, 92%);
   min-height: 100vh;
   width: 100vw;
   font-family: 'DM sans', sans-serif;
   font-style: normal;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 18px;
 }

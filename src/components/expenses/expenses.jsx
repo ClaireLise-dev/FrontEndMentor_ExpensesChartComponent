@@ -1,22 +1,20 @@
-
-import classes from './expenses.module.css';
+import classes from './expenses.module.css'
 import days from '../../data/data.json'
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 import Chart from '../chart/chart'
 
 function Expenses() {
-    const [data, setData] = useState(days);
-    useEffect(() => setData(days), [])
+  const [data, setData] = useState(days)
+  useEffect(() => setData(days), [])
 
-
- return(
+  return (
     <div className={classes.Main}>
       <h1>Spending - Last 7 days</h1>
-        <section className={classes.BlocksContainer}>
+      <section className={classes.BlocksContainer}>
         {data.map((days) => (
           <Chart key={days.key} day={days.day} amount={days.amount} />
         ))}
-      </section> 
+      </section>
       <section className={classes.Total}>
         <div className={classes.TotalAmount}>
           <p className={classes.TotalText}>Total this month</p>
@@ -28,7 +26,7 @@ function Expenses() {
         </div>
       </section>
     </div>
- ) 
+  )
 }
 
 export default Expenses
