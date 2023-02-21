@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FrontEndMentor_ExpensesChartComponent/static/css/main.2e114340.css",
+    "main.js": "/FrontEndMentor_ExpensesChartComponent/static/js/main.a3896102.js",
+    "index.html": "/FrontEndMentor_ExpensesChartComponent/index.html",
+    "static/media/logo.svg": "/FrontEndMentor_ExpensesChartComponent/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
+    "main.2e114340.css.map": "/FrontEndMentor_ExpensesChartComponent/static/css/main.2e114340.css.map",
+    "main.a3896102.js.map": "/FrontEndMentor_ExpensesChartComponent/static/js/main.a3896102.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e114340.css",
+    "static/js/main.a3896102.js"
+  ]
+}
