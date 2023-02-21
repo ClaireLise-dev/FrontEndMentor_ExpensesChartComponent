@@ -1,0 +1,38 @@
+.BoxAmount {
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+    text-align:center
+}
+.Block {
+    width: 50px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.Day{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: hsl(28, 10%, 53%);
+}
+
+@media screen and (max-width: 850px){
+    .Block {
+        width: 33px;
+        margin-bottom: 10px;
+    }
+
+    .BoxAmount {
+        font-size: 10px;
+    }
+
+    .Day {
+        font-size: 12px;
+    }
+}
+
+

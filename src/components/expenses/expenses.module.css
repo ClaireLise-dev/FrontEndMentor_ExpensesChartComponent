@@ -1,0 +1,73 @@
+.Main{
+    background-color:hsl(33, 100%, 98%);
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.Main h1 {
+    
+    margin-bottom: 40px;
+}
+
+.BlocksContainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    border-bottom: solid 2px hsl(27, 66%, 92%);
+}
+
+.Total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.TotalText {
+   color: hsl(28, 10%, 53%);
+   font-weight: 400;
+}
+
+.TotalNumber {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.TotalAmount h1{
+    margin-bottom: -10px;
+}
+
+.Percent {
+    font-weight: 700;
+    text-align: end;
+}
+
+@media screen and (max-width: 850px){
+    .Main {
+        width: 343px;
+        padding: 20px;
+    }
+
+    .Main h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .BlocksContainer {
+
+        padding-bottom: 20px;
+    }
+
+    .Total {
+
+        padding-top: 20px;
+    }
+
+    .TotalAmount h1 {
+        margin-bottom: -5px;
+    }
+}

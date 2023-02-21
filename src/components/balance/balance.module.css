@@ -1,0 +1,27 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  hsl(10, 79%, 65%);
+    color:hsl(27, 66%, 92%);
+    width: 520px;
+    height: 105px;
+    border-radius: 20px;
+}
+
+.Text p{
+    margin: 4px;
+}
+
+.Amount{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 850px){
+    .Main {
+        width: 343px;
+    }
+}
