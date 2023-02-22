@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FrontEndMentor_ExpensesChartComponent_React/static/css/main.2e114340.css",
-    "main.js": "/FrontEndMentor_ExpensesChartComponent_React/static/js/main.8d6f45b7.js",
+    "main.css": "/FrontEndMentor_ExpensesChartComponent_React/static/css/main.83fd9aea.css",
+    "main.js": "/FrontEndMentor_ExpensesChartComponent_React/static/js/main.22396502.js",
     "index.html": "/FrontEndMentor_ExpensesChartComponent_React/index.html",
     "static/media/logo.svg": "/FrontEndMentor_ExpensesChartComponent_React/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
-    "main.2e114340.css.map": "/FrontEndMentor_ExpensesChartComponent_React/static/css/main.2e114340.css.map",
-    "main.8d6f45b7.js.map": "/FrontEndMentor_ExpensesChartComponent_React/static/js/main.8d6f45b7.js.map"
+    "main.83fd9aea.css.map": "/FrontEndMentor_ExpensesChartComponent_React/static/css/main.83fd9aea.css.map",
+    "main.22396502.js.map": "/FrontEndMentor_ExpensesChartComponent_React/static/js/main.22396502.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e114340.css",
-    "static/js/main.8d6f45b7.js"
+    "static/css/main.83fd9aea.css",
+    "static/js/main.22396502.js"
   ]
 }
