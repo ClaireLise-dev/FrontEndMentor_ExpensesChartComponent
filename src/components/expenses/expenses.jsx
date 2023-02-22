@@ -10,12 +10,12 @@ function Expenses() {
   return (
     <main className={classes.Main}>
       <h1>Spending - Last 7 days</h1>
-      <section className={classes.BlocksContainer}>
+      <div className={classes.BlocksContainer}>
         {data.map((days) => (
           <Chart key={days.key} day={days.day} amount={days.amount} />
         ))}
-      </section>
-      <section className={classes.Total}>
+      </div>
+      <div className={classes.Total}>
         <div className={classes.TotalAmount}>
           <p className={classes.TotalText}>Total this month</p>
           <p className={classes.TotalNumber}>$478.33</p>
@@ -24,7 +24,7 @@ function Expenses() {
           <p className={classes.Percent}>+2.4%</p>
           <p className={classes.TotalText}>from last month</p>
         </div>
-      </section>
+      </div>
     </main>
   )
 }
